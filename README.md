@@ -1,1 +1,1 @@
-# M02-Machine-Learning
+# M02-Machine-Learning Class
