@@ -33,4 +33,3 @@ split_data <- function(data, split_ratio = 0.8) {
 
 
 
-
