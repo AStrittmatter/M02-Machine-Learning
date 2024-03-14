@@ -24,6 +24,8 @@ split_data <- function(data, split_ratio = 0.8) {
   training_sample <- sample(nrow(data), size = floor(nrow(data) * split_ratio))
   train_set <- data[training_sample, ]
   test_set <- data[-training_sample, ]
+  rownames(train_set) <- NULL
+  rownames(test_set) <- NULL
   
   # Return a list containing the train and test datasets
   return(list(train_set = train_set, test_set = test_set))
