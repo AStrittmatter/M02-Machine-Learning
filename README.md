@@ -1,4 +1,4 @@
-# M02-Machine-Learning Class
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AStrittmatter/M02-Machine-Learning/HEAD)
 
 # M02 Machine Learning Course
 
